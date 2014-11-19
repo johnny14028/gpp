@@ -1,0 +1,4 @@
+core_security:
+    resource: "@CoreSecurityBundle/Resources/config/routing.yml"
+    prefix:   /
+
