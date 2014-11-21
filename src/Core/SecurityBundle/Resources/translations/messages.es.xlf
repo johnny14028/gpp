@@ -4,7 +4,11 @@
         <body>
             <trans-unit id="1">
                 <source>Symfony2 is great</source>
-                <target>Symfony2 is genial</target>
+                <target>Symfony2 is genial</target>              
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Hello %name%</source>
+                <target>Hola %name%</target>
             </trans-unit>
         </body>
     </file>
