@@ -1,3 +1,7 @@
+theme_default:
+    resource: "@ThemeDefaultBundle/Resources/config/routing.yml"
+    prefix:   /
+
 core_security:
     resource: "@CoreSecurityBundle/Resources/config/routing.yml"
     prefix:   /
