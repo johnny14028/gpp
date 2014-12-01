@@ -70,3 +70,8 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+    
+corley_maintenance:
+    page: %kernel.root_dir%/../web/maintenance.dist.html
+    hard_lock: lock.html
+    symlink: false
